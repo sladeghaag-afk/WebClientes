@@ -15,5 +15,10 @@ export const routes: Routes = [
     {
         path: 'consulta-clientes',
         component: ConsultaClientes,
+    },
+    {
+        path: '', pathMatch: 'full',
+        redirectTo: '/dashboard'
     }
+
 ];
